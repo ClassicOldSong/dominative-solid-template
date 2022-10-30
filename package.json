@@ -8,7 +8,7 @@
     "@dominative/solid": "^0.0.2-alpha.2",
     "@nativescript/core": "~8.3.5",
     "@nativescript/theme": "~3.0.2",
-    "dominative": "^0.0.5-alpha.2",
+    "dominative": "^0.0.5-alpha.3",
     "solid-js": "^1.5.7",
     "undom-ng": "^1.0.0"
   },
