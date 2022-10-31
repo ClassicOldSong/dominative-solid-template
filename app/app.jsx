@@ -30,6 +30,7 @@ const App = () => {
 };
 
 const create = () => {
+  document.body.actionBarHidden = false;
   render(App, document.body);
   return document;
 };
