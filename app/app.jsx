@@ -1,7 +1,4 @@
-import { Application } from '@nativescript/core';
-import { render } from '@dominative/solid';
 import { createSignal } from 'solid-js';
-
 import { Component } from './component.jsx';
 
 const App = () => {
@@ -14,7 +11,7 @@ const App = () => {
       <actionbar title="Hello, SolidJS!"></actionbar>
       <stacklayout>
         <label>
-          You have taapped {count()} time{count() === 1 ? '' : 's'}
+          You have tapped {count()} time{count() === 1 ? '' : 's'}
         </label>
         {
           // use 'on:___' instead of 'on___' for event handlers
@@ -29,10 +26,4 @@ const App = () => {
   );
 };
 
-const create = () => {
-  document.body.actionBarHidden = false;
-  render(App, document.body);
-  return document;
-};
-
-Application.run({ create });
+export { App };
