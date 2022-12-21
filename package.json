@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@dominative/solid": "^0.0.4-alpha.1",
+    "@nativescript-community/solid-js": "*",
     "@nativescript/core": "~8.4.1",
     "@nativescript/theme": "~3.0.2",
     "dominative": "^0.0.7-alpha.2",

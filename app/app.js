@@ -1,5 +1,5 @@
 import { Application } from '@nativescript/core';
-import { render } from '@dominative/solid';
+import { render } from '@nativescript-community/solid-js';
 
 import { App } from './app.jsx';
 
