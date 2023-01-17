@@ -6,21 +6,21 @@
   "scripts": {},
   "dependencies": {
     "@nativescript-community/solid-js": "^0.0.4-alpha.2",
-    "@nativescript/core": "~8.4.1",
+    "@nativescript/core": "~8.4.5",
     "@nativescript/theme": "~3.0.2",
-    "dominative": "^0.0.7-alpha.2",
-    "solid-js": "^1.6.6",
-    "undom-ng": "^1.0.2"
+    "dominative": "^0.0.7-alpha.4",
+    "solid-js": "^1.6.9",
+    "undom-ng": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "@nativescript/preview-cli": "1.0.2",
     "@nativescript/stackblitz": "0.0.6",
     "@nativescript/webpack": "~5.0.12",
     "babel": "^6.23.0",
-    "babel-loader": "^9.1.0",
-    "babel-preset-solid": "^1.6.6",
-    "solid-refresh": "^0.4.1"
+    "babel-loader": "^9.1.2",
+    "babel-preset-solid": "^1.6.9",
+    "solid-refresh": "^0.4.2"
   }
 }
