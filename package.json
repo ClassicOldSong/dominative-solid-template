@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@nativescript-community/solid-js": "^0.0.4-alpha.2",
+    "@nativescript-community/solid-js": "^0.0.4-alpha.4",
     "@nativescript/core": "~8.4.5",
     "@nativescript/theme": "~3.0.2",
-    "dominative": "^0.0.7-alpha.4",
+    "dominative": "^0.0.7-alpha.5",
     "solid-js": "^1.6.9",
     "undom-ng": "^1.0.3"
   },
