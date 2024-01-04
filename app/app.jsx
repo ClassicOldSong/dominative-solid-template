@@ -1,6 +1,8 @@
 import { createSignal } from 'solid-js';
 import { Component } from './component.jsx';
 
+document.body.actionBarHidden = false;
+
 const App = () => {
   const [count, setCount] = createSignal(0);
   const increment = () => {
@@ -10,7 +12,7 @@ const App = () => {
     <>
       <actionbar title="Hello, SolidJS!"></actionbar>
       <stacklayout>
-        <label>
+        <label class="text-center">
           You have tapped {count()} time{count() === 1 ? '' : 's'}
         </label>
         {
