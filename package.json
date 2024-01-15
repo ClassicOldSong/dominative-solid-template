@@ -9,9 +9,9 @@
     "@nativescript-community/solid-js": "^0.0.5",
     "@nativescript/core": "~8.6.2",
     "@nativescript/theme": "~3.0.2",
-    "dominative": "^0.1.1",
+    "dominative": "^0.1.2",
     "solid-js": "^1.8.8",
-    "undom-ng": "^1.1.1"
+    "undom-ng": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
